@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.modal {
+    display: none;
+     position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.modal__overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, .4);
+}
+
+.modal__form {
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal__exit {
+    width: 40;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
